@@ -14,8 +14,7 @@ Resolve-Path |
 Where-Object { -not ($_.ProviderPath.ToLower().Contains(".tests.")) } |
 ForEach-Object { . $_.ProviderPath }
 
-# Export-ModuleMember -Variable componentGuidExtractorExecutable
-
+Export-ModuleMember -Function "New-TimesheetSummary"
 Export-ModuleMember -Function "Read-TimesheetData"
 Export-ModuleMember -Function "Format-TimesheetData"
 Export-ModuleMember -Function "Select-DaysWorked"
