@@ -18,10 +18,9 @@ function New-TimesheetSummary
 	Write-Verbose -Message ("Opening [$FilePath] to load raw report data.")
 
 	$rawData = Read-TimesheetData -Path $FilePath
+	$formattedData = Format-TimesheetData -InputObject $rawData
 
-	Format-TimesheetData
 	Select-DaysWorked
-	Set-PlantsAffected
 	Group-TimesheetData
 	Group-DailyTimeSegments
 	Measure-TimeWorked
