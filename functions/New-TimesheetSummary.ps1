@@ -19,8 +19,8 @@ function New-TimesheetSummary
 
 	$rawData = Read-TimesheetData -Path $FilePath
 	$formattedData = Format-TimesheetData -InputObject $rawData
+	$daysWorked = Select-DaysWorked -InputObject $formattedData
 
-	Select-DaysWorked
 	Group-TimesheetData
 	Group-DailyTimeSegments
 	Measure-TimeWorked
