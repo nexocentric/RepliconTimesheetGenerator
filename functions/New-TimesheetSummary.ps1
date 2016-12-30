@@ -13,9 +13,12 @@ function New-TimesheetSummary
 		[string]$Destination
 	)
 
+	$previousVerbosity = $PSDefaultParameterValues["*:Verbose"]
+	$PSDefaultParameterValues["*:Verbose"] = $PSBoundParameters["Verbose"]
 	Write-Verbose -Message ("Opening [$FilePath] to load raw report data.")
 
-	Read-TimesheetData
+	$rawData = Read-TimesheetData -Path $FilePath
+
 	Format-TimesheetData
 	Select-DaysWorked
 	Set-PlantsAffected
@@ -26,5 +29,6 @@ function New-TimesheetSummary
 	Write-TimesheetSummary	
 
 	Write-Verbose -Message ("Writing timesheet summary to [$Destination].")
+	$PSDefaultParameterValues["*:Verbose"] = $previousVerbosity
 }
 #New-TimesheetSummary -FilePath .\Desktop\ManicTimeSearch_2016-12-05.csv -Destination .\Desktop\sample-timesheet.txt -Verbose
