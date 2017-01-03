@@ -20,12 +20,17 @@ function New-TimesheetSummary
 	$rawData = Read-TimesheetData -Path $FilePath
 	$timesheetData = Format-TimesheetData -InputObject $rawData
 	$daysWorked = Select-DaysWorked -InputObject $timesheetData
-	$dayGroups = Group-TimesheetData -DaysWorked $daysWorked -TimesheetData $timesheetData
+	$daySummary = Group-TimesheetData -DaysWorked $daysWorked -TimesheetData $timesheetData
 
-	Group-DailyTimeSegments
+	$normalizedSummary = @()
+	foreach ($summary in $daySummary)
+	{
+		$normalizedSummary += ,(Group-DailyTimeSegments -DaySummary $summary)
+	}
+
 	Measure-TimeWorked
 	Measure-PlantTimeAllotment
-	Write-TimesheetSummary	
+	Write-TimesheetSummary #
 
 	Write-Verbose -Message ("Writing timesheet summary to [$Destination].")
 	$PSDefaultParameterValues["*:Verbose"] = $previousVerbosity

@@ -1,0 +1,959 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"repo",
+				"report_group"
+			],
+			[
+				"ran",
+				"range_end"
+			],
+			[
+				"vr",
+				"vr_sodtl"
+			],
+			[
+				"vm_c",
+				"vm_country"
+			],
+			[
+				"vm",
+				"vm_customer"
+			],
+			[
+				"v_in",
+				"vr_invdtl"
+			],
+			[
+				"sup",
+				"spsuasu"
+			],
+			[
+				"lo",
+				"localize_to"
+			],
+			[
+				"lab",
+				"labor_range_end"
+			],
+			[
+				"l",
+				"labor_range_start"
+			],
+			[
+				"spas",
+				"spsuasu"
+			],
+			[
+				"Date",
+				"DateRoundingDirection"
+			],
+			[
+				"vm_prod",
+				"vm_prod_type"
+			],
+			[
+				"pr",
+				"product_item_id"
+			],
+			[
+				"DATE",
+				"DATE_FORMAT"
+			],
+			[
+				"ra",
+				"range_start"
+			],
+			[
+				"TO",
+				"TO_DATE"
+			],
+			[
+				"range",
+				"range_start"
+			],
+			[
+				"off",
+				"offset_years"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"contents": "@C:\\Users\\ddzakuma.KFI\\Documents\\repositories\\Kms.EnterpriseD.GridReportViewer\\Kms.EnterpriseD.GridReportViewer\\Oracle\\grid_report_viewer.pck.pck\n@C:\\Users\\ddzakuma.KFI\\Documents\\repositories\\Kms.EnterpriseD.GridReportViewer\\Kms.EnterpriseD.GridReportViewer\\Oracle\\laboratory_grid_report.pck\n@C:\\Users\\ddzakuma.KFI\\Documents\\repositories\\Kms.EnterpriseD.GridReportViewer\\Kms.EnterpriseD.GridReportViewer\\Oracle\\purchasing_grid_report.pck\n@C:\\Users\\ddzakuma.KFI\\Documents\\repositories\\Kms.EnterpriseD.GridReportViewer\\Kms.EnterpriseD.GridReportViewer\\Oracle\\warehouse_grid_report.pck\n@C:\\Users\\ddzakuma.KFI\\Documents\\repositories\\Kms.EnterpriseD.GridReportViewer\\Kms.EnterpriseD.GridReportViewer\\Oracle\\bottling_grid_report.pck\n@C:\\Users\\ddzakuma.KFI\\Documents\\repositories\\Kms.EnterpriseD.GridReportViewer\\Kms.EnterpriseD.GridReportViewer\\Oracle\\labor_grid_report.pck\n@C:\\Users\\ddzakuma.KFI\\Documents\\repositories\\Kms.EnterpriseD.GridReportViewer\\Kms.EnterpriseD.GridReportViewer\\Oracle\\accounts_payable_grid_report.pck\n@C:\\Users\\ddzakuma.KFI\\Documents\\repositories\\Kms.EnterpriseD.GridReportViewer\\Kms.EnterpriseD.GridReportViewer\\Oracle\\logistics_grid_report.pck\n@C:\\Users\\ddzakuma.KFI\\Documents\\repositories\\Kms.EnterpriseD.GridReportViewer\\Kms.EnterpriseD.GridReportViewer\\Oracle\\accounting_grid_report.pck\n@C:\\Users\\ddzakuma.KFI\\Documents\\repositories\\Kms.EnterpriseD.GridReportViewer\\Kms.EnterpriseD.GridReportViewer\\Oracle\\bottling_grid_report.pck\n@C:\\Users\\ddzakuma.KFI\\Documents\\repositories\\Kms.EnterpriseD.GridReportViewer\\Kms.EnterpriseD.GridReportViewer\\Oracle\\brewing_grid_report.pck\n@C:\\Users\\ddzakuma.KFI\\Documents\\repositories\\Kms.EnterpriseD.GridReportViewer\\Kms.EnterpriseD.GridReportViewer\\Oracle\\costing_grid_report.pck\n@C:\\Users\\ddzakuma.KFI\\Documents\\repositories\\Kms.EnterpriseD.GridReportViewer\\Kms.EnterpriseD.GridReportViewer\\Oracle\\end_of_month_grid_report.pck\n@C:\\Users\\ddzakuma.KFI\\Documents\\repositories\\Kms.EnterpriseD.GridReportViewer\\Kms.EnterpriseD.GridReportViewer\\Oracle\\engineering_grid_report.pck\n@C:\\Users\\ddzakuma.KFI\\Documents\\repositories\\Kms.EnterpriseD.GridReportViewer\\Kms.EnterpriseD.GridReportViewer\\Oracle\\general_ledger_grid_report.pck\n@C:\\Users\\ddzakuma.KFI\\Documents\\repositories\\Kms.EnterpriseD.GridReportViewer\\Kms.EnterpriseD.GridReportViewer\\Oracle\\haccp_grid_report.pck\n@C:\\Users\\ddzakuma.KFI\\Documents\\repositories\\Kms.EnterpriseD.GridReportViewer\\Kms.EnterpriseD.GridReportViewer\\Oracle\\inventory_grid_report.pck\n@C:\\Users\\ddzakuma.KFI\\Documents\\repositories\\Kms.EnterpriseD.GridReportViewer\\Kms.EnterpriseD.GridReportViewer\\Oracle\\labor_grid_report.pck\n@C:\\Users\\ddzakuma.KFI\\Documents\\repositories\\Kms.EnterpriseD.GridReportViewer\\Kms.EnterpriseD.GridReportViewer\\Oracle\\koji_grid_report.pck\n@C:\\Users\\ddzakuma.KFI\\Documents\\repositories\\Kms.EnterpriseD.GridReportViewer\\Kms.EnterpriseD.GridReportViewer\\Oracle\\laboratory_grid_report.pck\n@C:\\Users\\ddzakuma.KFI\\Documents\\repositories\\Kms.EnterpriseD.GridReportViewer\\Kms.EnterpriseD.GridReportViewer\\Oracle\\maintenance_grid_report.pck\n@C:\\Users\\ddzakuma.KFI\\Documents\\repositories\\Kms.EnterpriseD.GridReportViewer\\Kms.EnterpriseD.GridReportViewer\\Oracle\\pressing_grid_report.pck\n@C:\\Users\\ddzakuma.KFI\\Documents\\repositories\\Kms.EnterpriseD.GridReportViewer\\Kms.EnterpriseD.GridReportViewer\\Oracle\\refining_grid_report.pck\n@C:\\Users\\ddzakuma.KFI\\Documents\\repositories\\Kms.EnterpriseD.GridReportViewer\\Kms.EnterpriseD.GridReportViewer\\Oracle\\shikomi_grid_report.pck\n\n\nvar rc refcursor;\nexecute accounts_receivable_g_report.iss('2016-09-01 00:00:00.00', '2016-09-30 23:59:59.99', :rc);\nprint rc;\n\nvar rc refcursor;\nexecute grid_report_viewer.getreports(:rc);\nprint rc;\n\t\nSELECT TO_DATE('','YYYY/MM/DD') soh_sdate, '' soh_bolnr, '' cust_nr, '' cust_ship2nr, '' soh_S2name, '' ItemNr, '' prod_item_fname, '' lot_cd, TO_NUMBER('') soq_qty, '' ItemSeq, '' CustAddr, '' CustCity, '' CustState, '' CustZip, '' PhoneNbr, '' cntry_fname FROM dual  WHERE 1=2  AND 1=2 UNION ALL SELECT SH.soh_Sdate, SH.soh_BOLNR, SH.cust_nr, SH.cust_ship2nr, SH.soh_S2name, I.prod_item_partnr || '-' || I.fglabel_id ItemNr, Replace(I.prod_item_fname,'KIKKOMAN ') prod_item_fname, DECODE(Substr(SOQ.lot_cd,1,1),'0','''','') || SOQ.lot_cd as lot_cd, SOQ.soq_qty, LPAD(I.prod_item_partnr,12,'0') ItemSeq, (trim(C.cust_adr1) || trim(C.cust_adr2) || trim(C.cust_adr3)) as CustAddr, trim(C.Cust_City) as CustCity,  trim(C.State_id) as CustState, trim(C.cust_zip) as CustZip, (trim(C.cust_phone)) as PhoneNbr, Cntry.Cntry_Fname FROM vm_prod_item I, vr_sohdr SH, vr_sodtl SD, vr_soQTY SOQ, vm_customer C, vm_country cntry WHERE (SH.cust_nr = C.cust_nr(+) AND SH.cust_ship2nr = C.cust_ship2nr(+) AND SH.billto_id = C.billto_id(+)) AND SH.soh_id = SD.soh_id AND SD.sod_id = SOQ.sod_id AND I.prod_item_id = SD.prod_item_id AND SH.soh_sdate >=  TO_DATE('2016/09/01','YYYY/MM/DD') AND SH.soh_sdate <=  TO_DATE('2016/09/22','YYYY/MM/DD') AND Cntry.cntry_id(+) = SH.cntry_id ORDER BY soh_Sdate, soh_BOLNR, ItemSeq \n\n\nWITH defined_grid_reports AS (\n\t\t\t\tSELECT DISTINCT\n\t\t\t\t\tobject_name\n\t\t\t\tFROM\n\t\t\t\t\tuser_procedures\n\t\t\t\tWHERE\n\t\t\t\t\tUPPER(object_name) LIKE UPPER('%G_REPORT')\n\t\t\t\t\tAND procedure_name IS NOT NULL\n\t\t\t)\n\t\t\t\tSELECT\n\t\t\t\t\tname AS report_group,\n\t\t\t\t\tTRIM(REGEXP_SUBSTR(user_source.text, '''(.*)'';')) AS signature\n\t\t\t\tFROM\n\t\t\t\t\tuser_source\n\t\t\t\tWHERE\n\t\t\t\t\tuser_source.name IN (SELECT object_name FROM defined_grid_reports)\n\t\t\t\t\tAND UPPER(type) = UPPER('PACKAGE BODY')\n\t\t\t\t\tAND UPPER(user_source.text) LIKE UPPER('%META_%:=%')\n\t\t\t\t\tAND user_source.text IS NOT NULL\n\t\t\t\t\t\n\nSELECT\n\tvr_sohdr.soh_sdate,\n\tvr_sohdr.soh_bolnr,\n\tvr_sohdr.cust_nr,\n\tvr_sohdr.cust_ship2nr,\n\tvr_sohdr.soh_S2name,\n\tvm_prod_item.prod_item_partnr || '-' || vm_prod_item.fglabel_id ItemNr,\n\tREPLACE(vm_prod_item.prod_item_fname,'KIKKOMAN ') prod_item_fname,\n\tDECODE(SUBSTR(vr_soqty.lot_cd,1,1),'0','''','') || vr_soqty.lot_cd as lot_cd,\n\tvr_soqty.soq_qty,\n\tLPAD(vm_prod_item.prod_item_partnr,12,'0') ItemSeq,\n\t(TRIM(vm_customer.cust_adr1) || TRIM(vm_customer.cust_adr2) || TRIM(vm_customer.cust_adr3)) as CustAddr,\n\tTRIM(vm_customer.Cust_City) as CustCity,\n\tTRIM(vm_customer.State_id) as CustState,\n\tTRIM(vm_customer.cust_zip) as CustZip,\n\t(TRIM(vm_customer.cust_phone)) as PhoneNbr,\n\tvm_country.Cntry_Fname\nFROM\n\tvr_sohdr\n\tINNER JOIN vr_sodtl ON\n\t\tvr_sohdr.soh_id = vr_sodtl.soh_id\n\tINNER JOIN vm_prod_item ON\n\t\tvm_prod_item.prod_item_id = vr_sodtl.prod_item_id\n\tINNER JOIN vr_soqty ON\n\t\tvr_sodtl.sod_id = vr_soqty.sod_id\n\tRIGHT OUTER JOIN vm_customer ON\n\t\tvr_sohdr.cust_nr = vm_customer.cust_nr\n\t\tAND vr_sohdr.cust_ship2nr = vm_customer.cust_ship2nr\n\t\tAND vr_sohdr.billto_id = vm_customer.billto_id\n\tRIGHT OUTER JOIN vm_country ON\n\t\tvm_country.cntry_id = vr_sohdr.cntry_id\nWHERE\n\tvr_sohdr.soh_sdate >= TO_DATE('2016/09/01','YYYY/MM/DD')\n\tAND vr_sohdr.soh_sdate <= TO_DATE('2016/09/22','YYYY/MM/DD')\nORDER BY\n\tsoh_sdate,\n\tsoh_bolnr,\n\tItemSeq\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\nWITH defined_grid_reports AS (\n\t\t\t\tSELECT DISTINCT\n\t\t\t\t\tobject_name\n\t\t\t\tFROM\n\t\t\t\t\tuser_procedures\n\t\t\t\tWHERE\n\t\t\t\t\tUPPER(object_name) LIKE UPPER('%G_REPORT')\n\t\t\t\t\tAND procedure_name IS NOT NULL\n\t\t\t)\n\t\t\t,uncleaned_signatures AS (\n\t\t\t\tSELECT\n\t\t\t\t\tname AS report_group,\n\t\t\t\t\tTRIM(REGEXP_SUBSTR(user_source.text, '''(.*)'';')) AS signature\n\t\t\t\tFROM\n\t\t\t\t\tuser_source\n\t\t\t\tWHERE\n\t\t\t\t\tuser_source.name IN (SELECT object_name FROM defined_grid_reports)\n\t\t\t\t\tAND UPPER(type) = UPPER('PACKAGE BODY')\n\t\t\t\t\tAND UPPER(user_source.text) LIKE UPPER('%META_REPORT_SIGNATURE%:=%')\n\t\t\t\t\tAND user_source.text IS NOT NULL\n\t\t\t)\n\t\t\t,report_signature AS (\n\t\t\t\tSELECT DISTINCT\n\t\t\t\t\treport_group,\n\t\t\t\t\tsignature\n\t\t\t\tFROM\n\t\t\t\t\t(\n\t\t\t\t\t\t SELECT\n\t\t\t\t\t\t\tSUBSTR(signature, 2, LENGTH(signature) - 3) AS signature,\n\t\t\t\t\t\t\tname AS report_group\n\t\t\t\t\t\tFROM\n\t\t\t\t\t\t\tuncleaned_signatures\n\t\t\t\t\t\t\tINNER JOIN user_source ON\n\t\t\t\t\t\t\t\tUPPER(user_source.name) = UPPER(uncleaned_signatures.report_group)\n\t\t\t\t\t\tWHERE\n\t\t\t\t\t\t\tsignature IS NOT NULL\n\t\t\t\t\t)\n\t\t\t)\n\t\t\t,report_setting AS (\n\t\t\t\tSELECT\n\t\t\t\t\tname AS report_group,\n\t\t\t\t\treport_signature.signature,\n\t\t\t\t\tuser_source.text AS setting\n\t\t\t\tFROM\n\t\t\t\t\tuser_source\n\t\t\t\t\tINNER JOIN report_signature ON\n\t\t\t\t\t\treport_signature.report_group = user_source.name\n\t\t\t\tWHERE\n\t\t\t\t\tuser_source.name IN (SELECT object_name FROM defined_grid_reports)\n\t\t\t\t\tAND UPPER(type) = UPPER('PACKAGE BODY')\n\t\t\t\t\tAND UPPER(user_source.text) LIKE UPPER('%META_' || report_signature.signature || '%')\n\t\t\t\t\tAND UPPER(user_source.text) NOT LIKE UPPER('%FILTER%')\n\t\t\t\t\tAND UPPER(user_source.text) NOT LIKE UPPER('%_TIME%')\n\t\t\t\t\tAND UPPER(user_source.text) NOT LIKE UPPER('%_DATE%')\n\t\t\t\t\tAND UPPER(user_source.text) NOT LIKE UPPER('%START%BLOCK%')\n\t\t\t\t\tAND UPPER(user_source.text) NOT LIKE UPPER('%END%BLOCK%')\n\t\t\t\t\tAND user_source.text IS NOT NULL\n\t\t\t)\n--\t\t\t,description AS (\n\t\t\t\tSELECT\n\t\t\t\t\tsignature,\n\t\t\t\t\t-- this removes the apostrophe at the beginning\n\t\t\t\t\t-- and the apostrophe and semicolon at the end\n\t\t\t\t\tSUBSTR(setting, 2, LENGTH(setting) - 3) AS description\n\t\t\t\tFROM\n\t\t\t\t\t(\n\t\t\t\t\t\tSELECT\n\t\t\t\t\t\t\tsignature,\n\t\t\t\t\t\t\tTRIM(REGEXP_SUBSTR(setting, '''(.*)'';')) AS setting\n\t\t\t\t\t\tFROM\n\t\t\t\t\t\t\treport_setting\n\t\t\t\t\t\tWHERE\n\t\t\t\t\t\t\tUPPER(report_setting.setting) LIKE UPPER('%META_%DESCRIPTION%')\n\t\t\t\t\t)\n--\t\t\t)\n\t\t\t,permission AS (\n\t\t\t\tSELECT\n\t\t\t\t\tsignature,\n\t\t\t\t\t-- this removes the apostrophe at the beginning\n\t\t\t\t\t-- and the apostrophe and semicolon at the end\n\t\t\t\t\tSUBSTR(setting, 2, LENGTH(setting) - 3) AS permission\n\t\t\t\tFROM\n\t\t\t\t\t(\n\t\t\t\t\t\tSELECT\n\t\t\t\t\t\t\tsignature,\n\t\t\t\t\t\t\tTRIM(REGEXP_SUBSTR(setting, '''(.*)'';')) AS setting\n\t\t\t\t\t\tFROM\n\t\t\t\t\t\t\treport_setting\n\t\t\t\t\t\tWHERE\n\t\t\t\t\t\t\tUPPER(report_setting.setting) LIKE UPPER('%META_%PERMISSION%')\n\t\t\t\t\t)\n\t\t\t)\n\t\t\t,display_name AS (\n\t\t\t\tSELECT\n\t\t\t\t\tsignature,\n\t\t\t\t\t-- this removes the apostrophe at the beginning\n\t\t\t\t\t-- and the apostrophe and semicolon at the end\n\t\t\t\t\tSUBSTR(setting, 2, LENGTH(setting) - 3) AS display_name\n\t\t\t\tFROM\n\t\t\t\t\t(\n\t\t\t\t\t\tSELECT\n\t\t\t\t\t\t\tsignature,\n\t\t\t\t\t\t\tTRIM(REGEXP_SUBSTR(setting, '''(.*)'';')) AS setting\n\t\t\t\t\t\tFROM\n\t\t\t\t\t\t\treport_setting\n\t\t\t\t\t\tWHERE\n\t\t\t\t\t\t\tUPPER(report_setting.setting) LIKE UPPER('%META_%DISPLAY_NAME%')\n\t\t\t\t\t)\n\t\t\t)\n\t\t\t,department_grant AS (\n\t\t\t\tSELECT\n\t\t\t\t\tsignature,\n\t\t\t\t\t-- this removes the apostrophe at the beginning\n\t\t\t\t\t-- and the apostrophe and semicolon at the end\n\t\t\t\t\tSUBSTR(setting, 2, LENGTH(setting) - 3) AS department_grant\n\t\t\t\tFROM\n\t\t\t\t\t(\n\t\t\t\t\t\tSELECT\n\t\t\t\t\t\t\tsignature,\n\t\t\t\t\t\t\tTRIM(REGEXP_SUBSTR(setting, '''(.*)'';')) AS setting\n\t\t\t\t\t\tFROM\n\t\t\t\t\t\t\treport_setting\n\t\t\t\t\t\tWHERE\n\t\t\t\t\t\t\tUPPER(report_setting.setting) LIKE UPPER('%META_%DEPT_GRANT%')\n\t\t\t\t\t)\n\t\t\t)\n\t\t\t,usage_status AS (\n\t\t\t\tSELECT\n\t\t\t\t\tsignature,\n\t\t\t\t\t-- this removes the apostrophe at the beginning\n\t\t\t\t\t-- and the apostrophe and semicolon at the end\n\t\t\t\t\tSUBSTR(setting, 2, LENGTH(setting) - 3) AS obsolete\n\t\t\t\tFROM\n\t\t\t\t\t(\n\t\t\t\t\t\tSELECT\n\t\t\t\t\t\t\tsignature,\n\t\t\t\t\t\t\tTRIM(REGEXP_SUBSTR(setting, '''(.*)'';')) AS setting\n\t\t\t\t\t\tFROM\n\t\t\t\t\t\t\treport_setting\n\t\t\t\t\t\tWHERE\n\t\t\t\t\t\t\tUPPER(report_setting.setting) LIKE UPPER('%META_%OBSOLETE%')\n\t\t\t\t\t)\n\t\t\t)\n\t\t\tSELECT\n\t\t\t\treport_signature.report_group,\n\t\t\t\tINITCAP(LOWER(REPLACE(REPLACE(report_signature.report_group, '_G_REPORT'), '_', ' '))) AS display_group_name,\n\t\t\t\treport_signature.signature,\n\t\t\t\tdescription.description,\n\t\t\t\tpermission.permission,\n\t\t\t\tdisplay_name.display_name,\n\t\t\t\tdepartment_grant.department_grant,\n\t\t\t\tusage_status.obsolete\n\t\t\tFROM\n\t\t\t\treport_signature\n\t\t\t\tINNER JOIN report_setting ON\n\t\t\t\t\treport_signature.signature = report_setting.signature\n\t\t\t\tINNER JOIN description ON\n\t\t\t\t\treport_signature.signature = description.signature\n\t\t\t\tINNER JOIN permission ON\n\t\t\t\t\treport_signature.signature = permission.signature\n\t\t\t\tINNER JOIN display_name ON\n\t\t\t\t\treport_signature.signature = display_name.signature\n\t\t\t\tINNER JOIN department_grant ON\n\t\t\t\t\treport_signature.signature = department_grant.signature\n\t\t\t\tINNER JOIN usage_status ON\n\t\t\t\t\treport_signature.signature = usage_status.signature\n\t\t\tORDER BY\n\t\t\t\treport_signature.report_group,\n\t\t\t\tusage_status.obsolete,\n\t\t\t\tdisplay_name.display_name",
+			"settings":
+			{
+				"buffer_size": 11978,
+				"line_ending": "Windows",
+				"name": "@C:\\Users\\ddzakuma.KFI\\Documents\\repositories\\Kms."
+			}
+		},
+		{
+			"contents": "select * from vr_solcom where rowid in ('AAALq8AAGAAGYk2AAp'\n'AAALq8AAGAAGYk2AAq'\n'AAALq8AAGAAGYk2AAr'\n'AAALq8AAGAAGYk2AAs'\n'AAALq8AAGAAGYk2AAt'\n'AAALq8AAGAAGYk2AAu'\n'AAALq8AAGAAGYk2AAv'\n'AAALq8AAGAAGYk2AAw'\n'AAALq8AAGAAGYk2AAx'\n'AAALq8AAGAAGYk2AAy'\n'AAALq8AAGAAGYk2AAz'\n'AAALq8AAGAAGYk2AA0'\n'AAALq8AAGAAGYk2AA1'\n'AAALq8AAGAAGYk2AA2'\n'AAALq8AAGAAGYk2AA3'\n'AAALq8AAGAAGYk2AA4'\n'AAALq8AAGAAGYk2AA5'\n'AAALq8AAGAAGYk2AA6'\n'AAALq8AAGAAGYk2AA7'\n'AAALq8AAGAAGYk2AA8'\n'AAALq8AAGAAGYk2AA9'\n 'AAALq8AAGAAGYk2AA+\n 'AAALq8AAGAAGYk2AA/\n'AAALq8AAGAAGYk2ABA'\n'AAALq8AAGAAGYk2ABB'\n'AAALq8AAGAAGYk2ABC'\n'AAALq8AAGAAGYk2ABD'\n'AAALq8AAGAAGYk2ABE'\n'AAALq8AAGAAGYk2ABF'\n'AAALq8AAGAAGYk2ABG'\n'AAALq8AAGAAGYk2ABH'\n'AAALq8AAGAAGYk2ABI'\n'AAALq8AAGAAGYk2ABJ'\n'AAALq8AAGAAGYk2ABK'\n'AAALq8AAGAAGYk2ABL'\n'AAALq8AAGAAGYk2ABM'\n'AAALq8AAGAAGYk2ABN'\n'AAALq8AAGAAGYk2ABO'\n'AAALq8AAGAAGYk2ABP'\n'AAALq8AAGAAGYk2ABQ'\n'AAALq8AAGAAGYk2ABR'\n'AAALq8AAGAAGYk2ABS'\n'AAALq8AAGAAGYk2ABT'\n'AAALq8AAGAAGYlWAAA'\n'AAALq8AAGAAGYlGAAx'\n'AAALq8AAGAAGYlGAAy'\n'AAALq8AAGAAGYlGAAz'\n'AAALq8AAGAAGYlGAA0'\n'AAALq8AAGAAGYlGAA1'\n'AAALq8AAGAAGYlGAA2'\n'AAALq8AAGAAGYlGAA3'\n'AAALq8AAGAAGYlGAA4'\n'AAALq8AAGAAGYlGAA5'\n'AAALq8AAGAAGYlGAA6'\n'AAALq8AAGAAGYlGAA7'\n'AAALq8AAGAAGYlGAA8'\n'AAALq8AAGAAGYlGAA9'\n 'AAALq8AAGAAGYlGAA+\n 'AAALq8AAGAAGYlGAA/\n'AAALq8AAGAAGYlGABA'\n'AAALq8AAGAAGYlGABB'\n'AAALq8AAGAAGYlGABC'\n'AAALq8AAGAAGYlGABD'\n'AAALq8AAGAAGYlGABE'\n'AAALq8AAGAAGYlGABF'\n'AAALq8AAGAAGYlGABG'\n'AAALq8AAGAAGYlGABH'\n'AAALq8AAGAAGYlGABI'\n'AAALq8AAGAAGYlGABJ'\n'AAALq8AAGAAGYlGABK'\n'AAALq8AAGAAGYlGABL'\n'AAALq8AAGAAGYlGABM'\n'AAALq8AAGAAGYlGABN'\n'AAALq8AAGAAGYlGABO'\n'AAALq8AAGAAGYlGABP'\n'AAALq8AAGAAGYlGABQ'\n'AAALq8AAGAAGYlGABR'\n'AAALq8AAGAAGYlGABS'\n'AAALq8AAGAAGYlWAAB'\n'AAALq8AAGAAGYlWAAC'\n'AAALq8AAGAAGYlWAAD'\n'AAALq8AAGAAGYlWAAE'\n'AAALq8AAGAAGYlWAAF'\n'AAALq8AAGAAGYlWAAG'\n'AAALq8AAGAAGYlWAAH'\n'AAALq8AAGAAGYlWAAI'\n'AAALq8AAGAAGYlWAAJ'\n'AAALq8AAGAAGYlWAAK'\n'AAALq8AAGAAGYlWAAL'\n'AAALq8AAGAAGYlWAAM'\n'AAALq8AAGAAGYlWAAN'\n'AAALq8AAGAAGYlWAAO'\n'AAALq8AAGAAGYlWAAP'\n'AAALq8AAGAAGYlWAAQ'\n'AAALq8AAGAAGYlWAAR'\n'AAALq8AAGAAGYlWAAS'\n'AAALq8AAGAAGYlWAAT'\n'AAALq8AAGAAGYlWAAU'\n'AAALq8AAGAAGYlWAAV'\n'AAALq8AAGAAGYlWAAW'\n'AAALq8AAGAAGYlWAAX'\n'AAALq8AAGAAGYlWAAY'\n'AAALq8AAGAAGYlWAAZ'\n'AAALq8AAGAAGYlWAAa'\n'AAALq8AAGAAGYlWAAb'\n'AAALq8AAGAAGYlWAAc'\n'AAALq8AAGAAGYlWAAd'\n'AAALq8AAGAAGYlWAAe'\n'AAALq8AAGAAGYlWAAf'\n'AAALq8AAGAAGYlWAAg'\n'AAALq8AAGAAGYlWAAh'\n'AAALq8AAGAAGYlWAAi'\n'AAALq8AAGAAGYlWAAj'\n'AAALq8AAGAAGYlWAAk'\n'AAALq8AAGAAGYlWAAl'\n'AAALq8AAGAAGYlWAAm'\n'AAALq8AAGAAGYlWAAn'\n'AAALq8AAGAAGYlWAAo'\n'AAALq8AAGAAGYlWAAp'\n'AAALq8AAGAAGYlWAAq'\n'AAALq8AAGAAGYlWAAr'\n'AAALq8AAGAAGYlWAAs'\n'AAALq8AAGAAGYlWAAt'\n'AAALq8AAGAAGYlWAAu'\n'AAALq8AAGAAGYlWAAv'\n'AAALq8AAGAAGYlWAAw'\n'AAALq8AAGAAGYlWAAx'\n'AAALq8AAGAAGYlWAAy'\n'AAALq8AAGAAGYlWAAz'\n'AAALq8AAGAAGYlWAA0'\n'AAALq8AAGAAGYlWAA1'\n'AAALq8AAGAAGYlWAA2')",
+			"settings":
+			{
+				"buffer_size": 2812,
+				"line_ending": "Windows",
+				"name": "select * from vr_solcom where rowid in ('AAALq8AAG"
+			}
+		},
+		{
+			"file": "/C/Users/ddzakuma.KFI/Documents/repositories/Kms.EnterpriseD.GridReportViewer/Kms.EnterpriseD.GridReportViewer/Oracle/grid_report_viewer.pck.pck",
+			"settings":
+			{
+				"buffer_size": 17004,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/ddzakuma.KFI/Documents/repositories/wisconsin-coding-conventions/README.md",
+			"settings":
+			{
+				"buffer_size": 3911,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/ddzakuma.KFI/Documents/repositories/wisconsin-coding-conventions/pl-sql.md",
+			"settings":
+			{
+				"buffer_size": 14523,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/ddzakuma.KFI/Documents/repositories/wisconsin-coding-conventions/sql.md",
+			"settings":
+			{
+				"buffer_size": 9464,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/ddzakuma.KFI/Documents/repositories/wisconsin-coding-conventions/general.md",
+			"settings":
+			{
+				"buffer_size": 15594,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/ddzakuma.KFI/Documents/repositories/wisconsin-coding-conventions/git.md",
+			"settings":
+			{
+				"buffer_size": 45,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/ddzakuma.KFI/Documents/repositories/wisconsin-coding-conventions/c-sharp.md",
+			"settings":
+			{
+				"buffer_size": 43,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "SELECT\n\tvr_labhdr.labh_date,\n\tvm_dept.dept_fname,\n\tvr_labhdr.labh_hrsrcv,\n\tvr_labhdr.labh_hrsdispt,\n\tvr_labhdr.labh_hrsotdispt,\n\tTO_NUMBER('') Diff,\n\tvm_dept.dept_id, 1 SEQ\nFROM\n\tvm_dept,\n\tvr_labhdr\nWHERE\n\tvm_dept.dept_id = vr_labhdr.dept_id\n\tAND vr_labhdr.labh_date IN (\n\t\tSELECT \n\t\t\tvr_labhdr.labh_date\n\t\tFROM\n\t\t\tvr_labhdr\n\t\tWHERE\n\t\t\tvr_labhdr.labh_date >= TO_DATE('2016/10/01','YYYY/MM/DD')\n\t\t\tAND vr_labhdr.labh_date <= TO_DATE('2016/10/31','YYYY/MM/DD')\n\t\tGROUP BY\n\t\t\tvr_labhdr.labh_date\n\t)\n\nUNION\n\nSELECT\n\tvr_labhdr.labh_date,\n\t'  --- Total of Day ---' ,\n\tSUM(vr_labhdr.labh_hrsrcv),\n\tSUM(vr_labhdr.labh_hrsdispt),\n\tSUM(vr_labhdr.labh_hrsotdispt),\n\t(SUM(vr_labhdr.labh_hrsrcv) - SUM(vr_labhdr.labh_hrsdispt) - SUM(vr_labhdr.labh_hrsotdispt)) Diff,\n\t'999',\n\t2 \nFROM \n\tvr_labhdr\nWHERE\n\tvr_labhdr.labh_date IN (\n\t\tSELECT\n\t\t\tvr_labhdr.labh_date\n\t\tFROM\n\t\t\tvr_labhdr\n\t\tWHERE\n\t\t\tvr_labhdr.labh_date >= TO_DATE('2016/10/01','YYYY/MM/DD')\n\t\t\tAND vr_labhdr.labh_date <= TO_DATE('2016/10/31','YYYY/MM/DD')\n\t\t\tGROUP BY vr_labhdr.labh_date\n\t)\nGROUP BY\n\tvr_labhdr.labh_date\nORDER BY\n\tlabh_date,\n\tdept_id,\n\tseq\n-----------------------\nWITH lab_date_range AS (\n\tSELECT \n\t\tvr_labhdr.labh_date AS dates\n\tFROM\n\t\tvr_labhdr\n\tWHERE\n\t\tvr_labhdr.labh_date >= TO_DATE('2016/10/01','YYYY/MM/DD')\n\t\tAND vr_labhdr.labh_date <= TO_DATE('2016/10/31','YYYY/MM/DD')\n\tGROUP BY\n\t\tvr_labhdr.labh_date\n)\nSELECT\n\tvr_labhdr.labh_date,\n\tvm_dept.dept_fname,\n\tvr_labhdr.labh_hrsrcv,\n\tvr_labhdr.labh_hrsdispt,\n\tvr_labhdr.labh_hrsotdispt,\n\tTO_NUMBER('') Diff,\n\tvm_dept.dept_id, 1 SEQ\nFROM\n\tvm_dept\n\tINNER JOIN vr_labhdr ON\n\t\tvm_dept.dept_id = vr_labhdr.dept_id\nWHERE\n\tvr_labhdr.labh_date IN (SELECT lab_date_range.dates FROM lab_date_range)\n\nUNION\n\nSELECT\n\tvr_labhdr.labh_date,\n\t'  --- Total of Day ---' ,\n\tSUM(vr_labhdr.labh_hrsrcv),\n\tSUM(vr_labhdr.labh_hrsdispt),\n\tSUM(vr_labhdr.labh_hrsotdispt),\n\t(SUM(vr_labhdr.labh_hrsrcv) - SUM(vr_labhdr.labh_hrsdispt) - SUM(vr_labhdr.labh_hrsotdispt)) Diff,\n\t'999',\n\t2 \nFROM \n\tvr_labhdr\nWHERE\n\tvr_labhdr.labh_date IN (SELECT lab_date_range.dates FROM lab_date_range)\nGROUP BY\n\tvr_labhdr.labh_date\nORDER BY\n\tlabh_date,\n\tdept_id,\n\tseq",
+			"settings":
+			{
+				"buffer_size": 2136,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "SELECT\n\tvr_plan.plan_date,\n\tvm_prod_item.prod_item_partnr || DECODE(vm_prod_item.fglabel_id, '0','','-' || vm_prod_item.fglabel_id) AS Item,\n\tREPLACE(vm_prod_item.prod_item_fname,'KIKKOMAN ') prod_item_fname,\n\tvr_plan.plan_qty, NVL(vr_bom.bom_qty, 0) AS ProdQty,\n\tvr_plan.plan_qty * vm_prod_item.fg_vol * vm_prod_item.fg_soypct AS SoyPlan,\n\tNVL(vr_bom.bom_qty,0) * vm_prod_item.fg_vol * vm_prod_item.fg_soypct AS SoyProd,\n\tDECODE(vr_plan.plan_qty, 0, 0, NVL(vr_bom.bom_qty, 0) / vr_plan.plan_qty  * 100) AS ProdRatio,\n\tLPAD(vm_prod_item.prod_item_partnr,12,'0') AS partnr_padded,\n\tfglabel_id\nFROM\n\tvm_prod_item,\n\tvr_plan,\n\tvr_lot,\n\tvr_bom,\n\tvm_prod_type,\n\tvmm_prodtype_scrn\nWHERE\n\tvm_prod_item.prod_item_id = vr_plan.prod_item_id\n\tAND vm_prod_item.prod_type_id = vm_prod_type.prod_type_id\n\tAND vm_prod_type.prod_type_scrn = vmm_prodtype_scrn.prod_type_scrn\n\tAND vr_plan.plan_id = vr_lot.plan_id(+)\n\tAND vr_lot.lot_id = vr_bom.lot_id(+)\n\tAND vmm_prodtype_scrn.prodtype_scrn_sys = 'FG'\n\tAND vr_plan.plan_date >= TO_DATE('2016/09/01','YYYY/MM/DD')\n\tAND vr_plan.plan_date <= TO_DATE('2016/09/30','YYYY/MM/DD')\n\tAND (vr_bom.bom_type ='RCV' OR vr_bom.bom_type IS NULL)\nORDER BY\n\tplan_date,\n\tpartnr_padded,\n\tfglabel_id\n------\nSELECT\n\tvr_plan.plan_date,\n\tvm_prod_item.prod_item_partnr || DECODE(vm_prod_item.fglabel_id, '0','','-' || vm_prod_item.fglabel_id) AS Item,\n\tREPLACE(vm_prod_item.prod_item_fname,'KIKKOMAN ') prod_item_fname,\n\tvr_plan.plan_qty, NVL(vr_bom.bom_qty, 0) AS ProdQty,\n\tvr_plan.plan_qty * vm_prod_item.fg_vol * vm_prod_item.fg_soypct AS SoyPlan,\n\tNVL(vr_bom.bom_qty,0) * vm_prod_item.fg_vol * vm_prod_item.fg_soypct AS SoyProd,\n\tDECODE(vr_plan.plan_qty, 0, 0, NVL(vr_bom.bom_qty, 0) / vr_plan.plan_qty  * 100) AS ProdRatio,\n\tLPAD(vm_prod_item.prod_item_partnr,12,'0') AS partnr_padded,\n\tfglabel_id\nFROM\n\tvm_prod_item\n\tINNER JOIN vr_plan ON\n\t\tvm_prod_item.prod_item_id = vr_plan.prod_item_id\n\tRIGHT OUTER JOIN vr_lot ON\n\t\tvr_plan.plan_id = vr_lot.plan_id\n\tRIGHT OUTER JOIN vr_bom ON\n\t\tvr_lot.lot_id = vr_bom.lot_id\n\tINNER JOIN vm_prod_type ON\n\t\tvm_prod_item.prod_type_id = vm_prod_type.prod_type_id\n\tINNER JOIN vmm_prodtype_scrn ON\n\t\tvm_prod_type.prod_type_scrn = vmm_prodtype_scrn.prod_type_scrn\nWHERE\n\tvmm_prodtype_scrn.prodtype_scrn_sys = 'FG'\n\tAND vr_plan.plan_date >= TO_DATE('2016/09/01','YYYY/MM/DD')\n\tAND vr_plan.plan_date <= TO_DATE('2016/09/30','YYYY/MM/DD')\n\tAND (vr_bom.bom_type ='RCV' OR vr_bom.bom_type IS NULL)\nORDER BY\n\tplan_date,\n\tpartnr_padded,\n\tfglabel_id",
+			"settings":
+			{
+				"buffer_size": 2486,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "tab",
+		"selected_items":
+		[
+			[
+				"tab",
+				"Indentation: Convert to Tabs"
+			],
+			[
+				"power",
+				"Set Syntax: PowerShell"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"sql",
+				"Set Syntax: PL/SQL (Oracle)"
+			],
+			[
+				"pl",
+				"Set Syntax: PL/SQL (Oracle)"
+			],
+			[
+				"mark",
+				"Set Syntax: Markdown Extended"
+			],
+			[
+				"instl",
+				"Package Control: Install Package"
+			],
+			[
+				"",
+				"Indentation: Convert to Tabs"
+			],
+			[
+				"ma",
+				"Set Syntax: Markdown"
+			],
+			[
+				"plsq",
+				"Set Syntax: PL/SQL (Oracle)"
+			],
+			[
+				"pls",
+				"Set Syntax: PL/SQL (Oracle)"
+			],
+			[
+				"conver",
+				"Indentation: Convert to Tabs"
+			],
+			[
+				"c#",
+				"Set Syntax: C#"
+			],
+			[
+				"ruby",
+				"Set Syntax: Ruby"
+			]
+		],
+		"width": 432.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/Users/ddzakuma.KFI/Documents/repositories/Kms.EnterpriseD.GridReportViewer"
+	],
+	"file_history":
+	[
+		"/C/Users/ddzakuma.KFI/Documents/repositories/RepliconTimesheetGenerator/functions/Write-TimesheetSummary.ps1",
+		"/C/Users/ddzakuma.KFI/Documents/repositories/RepliconTimesheetGenerator/functions/Measure-PlantTimeAllotment.ps1",
+		"/C/Users/ddzakuma.KFI/Documents/repositories/RepliconTimesheetGenerator/functions/Measure-TimeWorked.ps1",
+		"/C/Users/ddzakuma.KFI/Documents/repositories/RepliconTimesheetGenerator/functions/Group-DailyTimeSegments.ps1",
+		"/C/Users/ddzakuma.KFI/Documents/repositories/RepliconTimesheetGenerator/functions/Group-TimesheetData.ps1",
+		"/C/Users/ddzakuma.KFI/Documents/repositories/RepliconTimesheetGenerator/functions/Set-PlantsAffected.ps1",
+		"/C/Users/ddzakuma.KFI/Documents/repositories/RepliconTimesheetGenerator/functions/Select-DaysWorked.ps1",
+		"/C/Users/ddzakuma.KFI/Documents/repositories/RepliconTimesheetGenerator/functions/Format-TimesheetData.ps1",
+		"/C/Users/ddzakuma.KFI/Documents/repositories/RepliconTimesheetGenerator/functions/Read-TimesheetData.ps1",
+		"/C/Users/ddzakuma.KFI/Documents/repositories/RepliconTimesheetGenerator/RepliconTimesheetGenerator.psm1",
+		"/C/Users/ddzakuma.KFI/Documents/repositories/Kms.EnterpriseD.GridReportViewer/Kms.EnterpriseD.GridReportViewer/Oracle/bottling_grid_report.pck",
+		"/C/Users/ddzakuma.KFI/Documents/repositories/Kms.EnterpriseD.GridReportViewer/Kms.EnterpriseD.GridReportViewer/Oracle/purchasing_grid_report.pck",
+		"/C/Users/ddzakuma.KFI/Documents/repositories/wisconsin-coding-conventions/pl-sql.md",
+		"/C/Users/ddzakuma.KFI/Documents/repositories/wisconsin-coding-conventions/sql.md",
+		"/H/new-grid-report-oracle-packages-for-user-test/grid_report_viewer.pck.pck",
+		"/C/Users/ddzakuma.KFI/Documents/repositories/Kms.EnterpriseD.GridReportViewer/Kms.EnterpriseD.GridReportViewer/Oracle/laboratory_grid_report.pck",
+		"/H/new-grid-report-oracle-packages-for-user-test/aname.pkc.pck",
+		"/C/Users/ddzakuma.KFI/Documents/repositories/wisconsin-coding-conventions/general.md",
+		"/C/Users/ddzakuma.KFI/Documents/repositories/wisconsin-coding-conventions/README.md",
+		"/C/Users/ddzakuma.KFI/Documents/repositories/Kms.EnterpriseD.GridReportViewer/Kms.EnterpriseD.GridReportViewer/Oracle/warehouse_grid_report.pck",
+		"/C/Users/ddzakuma.KFI/Documents/repositories/Kms.EnterpriseD.GridReportViewer/Kms.EnterpriseD.GridReportViewer/Oracle/grid_report_viewer.pck.pck",
+		"//10.210.4.80/ddzakuma/kcat-manual/_documentation/program-interface/data-grid.md",
+		"//10.210.4.80/ddzakuma/kcat-manual/_data/tutorial-video-links.yml",
+		"/C/Users/ddzakuma.KFI/Desktop/vendor_information.csv",
+		"//10.210.4.80/ddzakuma/kcat-manual/_documentation/sales-item-management/setting-item-price.md",
+		"/C/Users/ddzakuma.KFI/Documents/repositories/Kms.EnterpriseD.GridReportViewer/Kms.EnterpriseD.GridReportViewer/Oracle/koji_grid_report.pck",
+		"/C/Users/ddzakuma.KFI/Documents/repositories/Kms.EnterpriseD.GridReportViewer/Kms.EnterpriseD.GridReportViewer/Oracle/haccp_grid_report.pck",
+		"/C/Users/ddzakuma.KFI/Documents/repositories/Kms.EnterpriseD.GridReportViewer/Kms.EnterpriseD.GridReportViewer/Oracle/inventory_grid_report.pck",
+		"/C/Users/ddzakuma.KFI/Documents/repositories/Kms.EnterpriseD.GridReportViewer/Kms.EnterpriseD.GridReportViewer/Oracle/engineering_grid_report.pck",
+		"/C/Users/ddzakuma.KFI/Documents/repositories/Kms.EnterpriseD.GridReportViewer/Kms.EnterpriseD.GridReportViewer/Oracle/general_ledger_grid_report.pck",
+		"/C/Users/ddzakuma.KFI/Documents/repositories/Kms.EnterpriseD.GridReportViewer/Kms.EnterpriseD.GridReportViewer/Oracle/costing_grid_report.pck",
+		"/C/Users/ddzakuma.KFI/Documents/repositories/Kms.EnterpriseD.GridReportViewer/Kms.EnterpriseD.GridReportViewer/Oracle/end_of_month_grid_report.pck",
+		"/C/Users/ddzakuma.KFI/Documents/repositories/Kms.EnterpriseD.GridReportViewer/Kms.EnterpriseD.GridReportViewer/Oracle/brewing_grid_report.pck",
+		"/C/Users/ddzakuma.KFI/Documents/repositories/Kms.EnterpriseD.GridReportViewer/Kms.EnterpriseD.GridReportViewer/Oracle/auditing_grid_report.pck",
+		"/C/Users/ddzakuma.KFI/Documents/repositories/Kms.EnterpriseD.GridReportViewer/Kms.EnterpriseD.GridReportViewer/Oracle/accounts_payable_grid_report.pck",
+		"/C/Users/ddzakuma.KFI/Documents/repositories/Kms.EnterpriseD.GridReportViewer/Kms.EnterpriseD.GridReportViewer/Oracle/accounts_receivable_grid_report.pck",
+		"/C/Users/ddzakuma.KFI/Documents/repositories/Kms.EnterpriseD.GridReportViewer/Kms.EnterpriseD.GridReportViewer/Oracle/accounting_grid_report.pck",
+		"/C/Users/ddzakuma.KFI/Documents/repositories/Kms.EnterpriseD.GridReportViewer/Kms.EnterpriseD.GridReportViewer/Oracle/shikomi_grid_report.pck",
+		"/C/Users/ddzakuma.KFI/Documents/repositories/Kms.EnterpriseD.GridReportViewer/Kms.EnterpriseD.GridReportViewer/Oracle/refining_grid_report.pck",
+		"/C/Users/ddzakuma.KFI/Documents/repositories/Kms.EnterpriseD.GridReportViewer/Kms.EnterpriseD.GridReportViewer/Oracle/pressing_grid_report.pck",
+		"/C/Users/ddzakuma.KFI/Documents/repositories/Kms.EnterpriseD.GridReportViewer/Kms.EnterpriseD.GridReportViewer/Oracle/maintenance_grid_report.pck",
+		"/C/Users/ddzakuma.KFI/Documents/repositories/Kms.EnterpriseD.GridReportViewer/Kms.EnterpriseD.GridReportViewer/Oracle/labor_grid_report.pck",
+		"/C/Users/ddzakuma.KFI/Documents/repositories/Kms.EnterpriseD.GridReportViewer/Kms.EnterpriseD.GridReportViewer/Oracle/logistics_grid_report.pck",
+		"/C/Users/ddzakuma.KFI/Desktop/common-table-expression-example.txt",
+		"/C/Users/ddzakuma.KFI/Desktop/ManicTime_Tags_2016-11-14.txt",
+		"/C/Users/ddzakuma.KFI/Documents/repositories/Kms.EnterpriseD.GridReportViewer/.gitignore",
+		"/C/Users/ddzakuma.KFI/Documents/repositories/Kms.EnterpriseD.GridReportViewer/Kms.EnterpriseD.GridReportViewer/Oracle/grid_report_viewer.pck.sql",
+		"/C/Users/ddzakuma.KFI/Documents/repositories/Kms.EnterpriseD.GridReportViewer/Kms.EnterpriseD.GridReportViewer/Oracle/aname.pkc.sql",
+		"/C/Users/ddzakuma.KFI/Documents/repositories/Kms.EnterpriseD.GridReportViewer/Kms.EnterpriseD.GridReportViewer/Oracle/accounting_grid_report.sql",
+		"/C/Users/ddzakuma.KFI/Documents/repositories/Kms.EnterpriseD.GridReportViewer/workspaces/Kms.EnterpriseD.GridReportViewer.sublime-project",
+		"/X/LINQPad5/lprun readme.txt"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 90.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"pandora",
+			"{}",
+			"\"\"",
+			"\t",
+			"AAALq8AAGAAGYlWAA2",
+			"AAA",
+			"AAALq8AAGAAGYlWAA2",
+			"AAA",
+			"AA",
+			"'\"\"'",
+			"\t",
+			"\n\tA",
+			"\t",
+			"visualbasic",
+			"vb6",
+			"            ",
+			":x: Bad Example",
+			"g ",
+			"VAR",
+			"IN V",
+			"0",
+			"%",
+			"0",
+			"%",
+			"(",
+			"0",
+			"\\(\\d",
+			"(0",
+			"(",
+			"Find and open a report that you might use in your daily work.",
+			"(",
+			"0",
+			"\\(\\d",
+			"(",
+			"0",
+			"\\([015]",
+			"table_name",
+			"ending_date",
+			"IN ",
+			"IN",
+			"in",
+			"IN",
+			"eee",
+			"your_table",
+			"where",
+			"decode",
+			"[",
+			"join",
+			"Fatal",
+			":",
+			"Data Type Conversion",
+			"Package Writing Guidlines",
+			"Coding Conventions",
+			"Working Effectively with Legacy Code",
+			"LINQPad",
+			"Atom",
+			"Sublime Text",
+			"Visual Studio Code",
+			"Microsoft C# : Step by Step",
+			"Design for Hackers",
+			"Clean Code",
+			"The Phoenix Project",
+			"Stack Overflow answer",
+			"markdown",
+			"Markdown",
+			"VARCHAR(256);",
+			"plsql",
+			"lockRow",
+			"getReports",
+			"accounting_g_report",
+			"(",
+			"[",
+			"LINQPad",
+			"./",
+			".",
+			"signature",
+			"usage_status",
+			"signature",
+			"report_signature",
+			"report_signature.signature",
+			"SELECT\n\t\t\t\t\t\t\tsignature,",
+			"PROCEDURE",
+			"Lot Codes and Customer Destinations",
+			"A listing of lot codes BOL numbers and the destinations of the shipments.",
+			"META_efg_REPLACEMENT_FOR",
+			"META_",
+			"LCCD",
+			"lccd",
+			"LCCD",
+			"lccd",
+			"LCCD",
+			"lccd",
+			"LCCD",
+			"lccd",
+			"LCCD",
+			"lccd",
+			"a",
+			"lccd",
+			"PROCEDURE lccd(\n\toutput_reference_cursor OUT SYS_REFCURSOR\n) IS\n\t-- START SUBPROGRAM METADATA BLOCK --\n\t-- META_REPORT_SIGNATURE VARCHAR2(256) := 'lccd';\n\t-- META_LCCD_PERMISSION VARCHAR2(256) := 'lot_codes_and_customer_destinations';\n\t-- META_LCCD_DISPLAY_NAME VARCHAR2(256) := 'Lot Codes and Customer Destinations';\n\t-- META_LCCD_DESCRIPTION VARCHAR2(256) := 'A listing of lot codes BOL numbers and the destinations of the shipments.';\n\t-- META_LCCD_DEPT_GRANTS VARCHAR2(256) := 'koji|shipping';\n\t-- META_LCCD_OBSOLETE VARCHAR2(256) := 'true';\n\t-- META_LCCD_FILTER VARCHAR2(256) := ''; --this will always be blank here\n\t-- META_LCCD_DELAY_QUERY VARCHAR2(256) := 'true';\n\t-- META_LCCD_REPLACEMENT_FOR VARCHAR2(256) := '4F1';\n\t-- END SUBPROGRAM METADATA BLOCK --\nBEGIN\n\tOPEN output_reference_cursor FOR\n\t\tSELECT\n\t\t\t*\n\t\tFROM\n\t\t\ttm_linetypes\n\t;\nEND lccd;",
+			"\n",
+			"\n \n\n \n",
+			"DESCRIPTION",
+			"PERMISSION",
+			"META_LCCD_PERMISSION",
+			"META_REPORT_SIGNATURE",
+			"_LCCD_",
+			"lccd",
+			"META_lCCD_FILTER",
+			"ccd_",
+			"iss",
+			"ISS",
+			"iss",
+			"ISS",
+			"iss",
+			"ISS",
+			"iss",
+			"Lot_Codes_and_Customer_Destinations",
+			" ",
+			" as ",
+			"vr_sodtl",
+			"vm_prod_item",
+			"vr_sohdr",
+			"vm_customer",
+			"vr_sodtl.sod_id = vr_soqty.sod_id",
+			" ",
+			"SD.",
+			"Cntry.",
+			"C."
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 11978,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3606,
+								3606
+							]
+						],
+						"settings":
+						{
+							"auto_name": "@C:\\Users\\ddzakuma.KFI\\Documents\\repositories\\Kms.",
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2812,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2811,
+								2811
+							]
+						],
+						"settings":
+						{
+							"auto_name": "select * from vr_solcom where rowid in ('AAALq8AAG",
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 139.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/C/Users/ddzakuma.KFI/Documents/repositories/Kms.EnterpriseD.GridReportViewer/Kms.EnterpriseD.GridReportViewer/Oracle/grid_report_viewer.pck.pck",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 17004,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1244,
+								796
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Oracle PL SQL/Syntaxes/PL SQL (Oracle).tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/C/Users/ddzakuma.KFI/Documents/repositories/wisconsin-coding-conventions/README.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3911,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2133,
+								2143
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "/C/Users/ddzakuma.KFI/Documents/repositories/wisconsin-coding-conventions/pl-sql.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 14523,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3392,
+								3401
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Markdown Extended/Syntaxes/Markdown Extended.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "/C/Users/ddzakuma.KFI/Documents/repositories/wisconsin-coding-conventions/sql.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 9464,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1047,
+								1047
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Markdown Extended/Syntaxes/Markdown Extended.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 540.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "/C/Users/ddzakuma.KFI/Documents/repositories/wisconsin-coding-conventions/general.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 15594,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3153,
+								3153
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 469.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "/C/Users/ddzakuma.KFI/Documents/repositories/wisconsin-coding-conventions/git.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 45,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								45,
+								45
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 10,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "/C/Users/ddzakuma.KFI/Documents/repositories/wisconsin-coding-conventions/c-sharp.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 43,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								43,
+								43
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2136,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2136,
+								2136
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/SQL/SQL.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2486,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								639,
+								639
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/SQL/SQL.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 9,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 34.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": false,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "replicon-timesheet-generator.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"ware",
+				"Kms.EnterpriseD.GridReportViewer\\Oracle\\warehouse_grid_report.pck"
+			],
+			[
+				"grid",
+				"Kms.EnterpriseD.GridReportViewer\\Oracle\\grid_report_viewer.pck.pck"
+			],
+			[
+				"pck",
+				"Kms.EnterpriseD.GridReportViewer\\Oracle\\logistics_grid_report.pck"
+			],
+			[
+				"ac",
+				"Kms.EnterpriseD.GridReportViewer\\Oracle\\accounts_receivable_grid_report.pck"
+			],
+			[
+				"acp",
+				"Kms.EnterpriseD.GridReportViewer\\Oracle\\accounts_payable_grid_report.pck"
+			],
+			[
+				"accoun",
+				"Kms.EnterpriseD.GridReportViewer\\Oracle\\accounts_payable_grid_report.pck"
+			],
+			[
+				"lab",
+				"Kms.EnterpriseD.GridReportViewer\\Oracle\\labor_grid_report.pck"
+			],
+			[
+				"wa",
+				"Kms.EnterpriseD.GridReportViewer\\Oracle\\warehouse_grid_report.pck"
+			],
+			[
+				"pur",
+				"Kms.EnterpriseD.GridReportViewer\\Oracle\\purchasing_grid_report.pck"
+			],
+			[
+				"bott",
+				"Kms.EnterpriseD.GridReportViewer\\Oracle\\bottling_grid_report.pck"
+			],
+			[
+				"viewr",
+				"Kms.EnterpriseD.GridReportViewer\\Oracle\\grid_report_viewer.pck.pck"
+			],
+			[
+				"repor",
+				"Kms.EnterpriseD.GridReportViewer\\Oracle\\accounting_grid_report.pck"
+			],
+			[
+				".",
+				".gitignore"
+			],
+			[
+				"na",
+				"Kms.EnterpriseD.GridReportViewer\\Oracle\\aname.pkc.pck"
+			],
+			[
+				"lo",
+				"Kms.EnterpriseD.GridReportViewer\\Oracle\\logistics_grid_report.pck"
+			],
+			[
+				"sql",
+				"Kms.EnterpriseD.GridReportViewer\\Oracle\\accounting_grid_report.sql"
+			],
+			[
+				"sub",
+				"workspaces\\Kms.EnterpriseD.GridReportViewer.sublime-project"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": false,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
